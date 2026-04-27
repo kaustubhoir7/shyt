@@ -1,0 +1,14 @@
+ps aux
+top
+sleep 100
+Ctrl+Z
+bg
+jobs
+pidof sleep
+kill <PID>
+free -m
+df -h
+pstree
+echo $USER
+echo $OSTYPE
+echo $SHELL
